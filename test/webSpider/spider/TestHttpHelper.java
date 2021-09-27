@@ -13,12 +13,12 @@ import org.junit.jupiter.api.Test;
 public class TestHttpHelper {
 	private static final String HTML_TITLE = "<title>Macalester College: Private Liberal Arts College</title>";
 
-    @Test
-	public void testRetrieve() {
-		HttpHelper helper = new HttpHelper();
-		String html = helper.retrieve("https://www.macalester.edu");
-		assertTrue(html.indexOf(HTML_TITLE) >= 0);
-	}
+ //    @Test
+	// public void testRetrieve() {
+	// 	HttpHelper helper = new HttpHelper();
+	// 	String html = helper.retrieve("https://www.macalester.edu");
+	// 	assertTrue(html.indexOf(HTML_TITLE) >= 0);
+	// }
  
 
     @Test
